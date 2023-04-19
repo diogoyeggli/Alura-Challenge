@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo-diogo.png" type="logo-diogo">
+</head>
+
+<body>
+    <main>
+        <header class="cabecalho">
+            <img src="logo-diogo.png" alt="logo-diogo">
+            <h1>Challenge ONE Sprint 01:</h1>
+            <p>decodificador de texto com Javascript</p>
+
+        </header>
+        <div class="caixa-principal">
+
+            <div class="caixa-de-entrada">
+                <textarea id="entrada" placeholder="digite seu texto aqui..."></textarea>
+            </div>
+
+            <div id="caixa-de-saida">
+                <img src="boneco-alura.png" alt="boneco-alura">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+
+        </div>
+        <div class="aviso">
+            <p>*Apenas letras minúsculas e sem acento!</p>
+        </div>
+
+
+        <div class="caixa-botao">
+
+            <button onclick="criptografar()" class="botao-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
+            <!--<button onclick="copiar()" class="botao-copiar" id="copiar">Copiar</button>-->
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <h3>Challenge T5 - One / Diogo Yeggli</h3>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
